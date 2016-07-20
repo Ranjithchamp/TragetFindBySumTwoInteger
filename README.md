@@ -8,8 +8,10 @@ public class AddTwoIntegerInArray {
 		int a = 0, k = 0;
 		int l = 0;
 		Scanner qq = new Scanner(System.in);
+		System.out.println("Enter array size");
 		int nn=qq.nextInt();
 		int count[] = new int[nn];
+			System.out.println("Enter array element");
 		for(int i=0;i<nn;i++)
 		{
 			count[i]=qq.nextInt();
